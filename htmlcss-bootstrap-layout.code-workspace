@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Users/mouss/Downloads/bootstrap-5.3.8-dist"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "htmlcss-bootstrap-layout"
+	}
+}

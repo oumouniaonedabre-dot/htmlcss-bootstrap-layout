@@ -3,10 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
-container-fuid {
-    background-color: rgb(255, 255, 255);
+.bg-light {
+    background-color: lightgray;
+    width: 100%;
+    border: 1px solid gray;
 }
-.containerpy-2 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.bg-secondary {
+    background-color: darkgray;
+    width: 100%;
+    border: 1px solid gray;
+}
+.bg-primary {
+    background-color: blue;
+    border: 1px solid gray;
+}
+.bg-success {
+    background-color: green;
+    border: 1px solid gray;
+}
+.bg-danger {
+    background-color: red;
+    width: 100%;
+    border: 1px solid gray;
+}
+.text-center {
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative; 
+    top: 0;
+    left: 10px;
+}
+.bg-warning {
+    background-color: orange;
+    width: 50%;
+    border: 1px solid gray;
+}
+.bg-info {
+    background-color: cyan;
+    width: 50%;
+    border: 1px solid gray; 
+}
+.bg-dark {
+    background-color: black;
+    width: 50%;
+    border: 1px solid gray;
+    
+}
+.bg-white {
+    background-color: white;
+    width: 50%;
+    border: 1px solid gray;
+    
 }
