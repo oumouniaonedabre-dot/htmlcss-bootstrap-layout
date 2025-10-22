@@ -8,34 +8,37 @@
 
 <body>
 
-   <header>
-    <div class="container-fluid bg-gray-subtle">
-        <div class="row">
-            <div class="col">
-                <h1>Bootstrap 5 Responsive Grid</h1>
-                Layout la Griglia con diversi breakpoint (sm, md, lg).
-            </div>
-        </div>
-   </header> 
+    <header>
+    <div class="container my-5">
 
-   <main>
-    <div class="container py-2">
-        <div class="row g-2">
-            <div class="col-8 col-sm-4 col-md-4 col-lg-3 bg-primary text-white p-2">
-                Colonna 1
-                Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi, un terzo su dispositivi grandi e un quarto su dispositivi extra grandi.
-            </div>
-            <div class="col-8 col-sm-4 col-md-4 col-lg-3 bg-primary text-white p-2">
-                Colonna 2
-                Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi, un terzo su dispositivi grandi e un quarto su dispositivi extra grandi.
-            </div>
-            
+        <!--Riga 1: Largezza interna su tutti i dispositivi-->
+<div class="row">
+    <div class="col-12 text-center">
+        <h1>Bootstrap 5 Responsive Grid</h1>
+        <p class="lead">Layout a griglia con diversi breakpoint (sm, md, lg).</p>
     </div>
-</div>
-   </main>
+    </div>
+ </header> <br>
+    <!--Riga 2: Largezza interna su dispositivi medi e grandi-->
+    <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+            <h2>Contenuto centrato su dispositivi medi e grandi</h2>
+            <p>Questa sezione occupa 8 colonne su dispositivi medi e grandi, ed è centrata orizzontalmente.</p>
+        </div>
+    </div> <br>
 
-   <footer></footer>
+    <!--Riga 3: Largezza interna su dispositivi piccoli, medi e grandi-->
+    <div class="row">
+        <div class="col-sm-10 offset-sm-1 text-center">
+            <h2>Contenuto centrato su dispositivi piccoli, medi e grandi</h2>
+            <p>Questa sezione occupa 10 colonne su dispositivi piccoli, medi e grandi, ed è centrata orizzontalmente.</p>
+        </div>
+    </div> <br>
 
-</body>
-
-</html>
+    <!--Riga 4: Largezza interna su tutti i dispositivi-->
+    <div class="row">
+        <div class="col-12 text-center">
+            <h2>Contenuto a larghezza piena</h2>
+            <p>Questa sezione occupa l'intera larghezza disponibile su tutti i dispositivi.</p>
+        </div>
+    </div>
